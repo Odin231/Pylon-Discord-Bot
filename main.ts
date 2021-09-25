@@ -7,9 +7,6 @@ import { CalculatonPairMmInch } from './CalculationClasses';
 import { CalculatonPairKphMph } from './CalculationClasses';
 
 const ACCEPTED_CHANNELS: string[] = [
-  '833943333268488234',
-  '583762264352358429', //(ClassicIndycar)
-  '846456297226109088'
 ];
 
 const CELSIUS_NAMES: string[] = ['Celsius', 'C', '°C'];
