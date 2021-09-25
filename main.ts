@@ -1,3 +1,4 @@
+import { FoundValue } from './CalculationClasses';
 import { CalculatonPair } from './CalculationClasses';
 import { CalculatonPairCelsiusFahrenheit } from './CalculationClasses';
 import { CalculatonPairLiterGallons } from './CalculationClasses';
@@ -10,22 +11,6 @@ const ACCEPTED_CHANNELS: string[] = [
   '583762264352358429', //(ClassicIndycar)
   '846456297226109088'
 ];
-
-/**
- * Helper Class
- * This class is used to save found input values
- */
-class FoundValue {
-  value: number;
-  valueString: string;
-  unit: string;
-
-  constructor(value: number, unit: string) {
-    this.value = value;
-    this.valueString = value.toString();
-    this.unit = unit;
-  }
-}
 
 const CELSIUS_NAMES: string[] = ['Celsius', 'C', '°C'];
 const FAHRENHEIT_NAMES: string[] = ['Fahrenheit', 'F', '°F'];
