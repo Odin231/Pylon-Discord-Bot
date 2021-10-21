@@ -1,6 +1,6 @@
 # Pylon-Discord-Bot
 ## Discord-Bot deployed via Pylon
-The idea behind this bot is to offer specialized conversions needed in an international simracing community. 
+The idea behind this bot is to offer specialized conversions needed in an international simracing community. These conversions should be as easy to use as possible, so the user doesn't need to remember commands or read documentation.
 ### What does this bot do?
 Right now the bot is able to translate values from metric to imperial and back. For example from litres to gallons, or Celsius to Fahrenheit. (A list with all the unit the bot can handle will follow).
 ### How does the bot work?
