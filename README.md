@@ -10,7 +10,7 @@ In the moment the bot is running via an external hosting service called "Pylon" 
 
 As of now the bot is setup only to check specific discord-rooms. To make the bot listen to a room the room-id needs to be added into the "ACCEPTED_CHANNELS"-Array as a string-value. 
 ### How can you use the bot? 
-The bot is pretty dumb regarding inputs. So it is enough to just send a message like "20 liter", or "400 mm" and the bot will translate it into it's predefined counterpart.  I implemented no upper limit regarding text length, so I guess the sky (and the sever capacities from Pylon) is the limit.
+The bot is pretty simple regarding inputs. So it is enough to just send a message like "20 liter", or "400 mm" and the bot will translate it into it's predefined counterpart. As the bot reads every text in all the allowed rooms the input can be anywhere inside a long text and the bot will still translate it. 
 **Important:** You need to leave a space between value and unit (neither 20L nor 20  L will work!) 
 
 #### Table of currently supported Units
